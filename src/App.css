@@ -1,0 +1,23 @@
+:root {
+  --senfic: #736800;
+  --lightSenf: #C2B000;
+  --darkSenf: #1A1700;
+  --pureBlack: #000000;
+  --banana: #FFE800;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background: rgba(0, 0, 0, 0.5) url(../public/bg.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: darken;
+  color: var(--lightSenf);
+} 
